@@ -26,7 +26,8 @@
  * published by the Free Software Foundation.
  *
  */
-
+#define DEBUG
+#define LOG_DEBUG
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 #include <common.h>
 #if CONFIG_IS_ENABLED(OF_CONTROL)
