@@ -4,7 +4,8 @@
  * 2N Telekomunikace, a.s. <www.2n.cz>
  * Ladislav Michl <michl@2n.cz>
  */
-
+#define DEBUG
+#define LOG_DEBUG
 #include <common.h>
 #include <nand.h>
 #include <errno.h>
