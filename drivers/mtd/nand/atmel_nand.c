@@ -9,7 +9,8 @@
  * Add Programmable Multibit ECC support for various AT91 SoC
  *     (C) Copyright 2012 ATMEL, Hong Xu
  */
-
+#define DEBUG
+#define LOG_DEBUG
 #include <common.h>
 #include <asm/gpio.h>
 #include <asm/arch/gpio.h>
