@@ -21,7 +21,8 @@
  * This exception does not invalidate any other reasons why a work based on
  * this file might be covered by the GNU General Public License.
  */
-
+#define DEBUG
+#define LOG_DEBUG
 #include <common.h>
 
 #include <linux/errno.h>
